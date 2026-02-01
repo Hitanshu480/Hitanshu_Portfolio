@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hitanshu Sekhar Das | Portfolio</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f9ff;
+      margin: 0;
+      padding: 0;
+      color: #1f2937;
+    }
+    .intro {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #f0f9ff, #e0f2fe);
+      border-radius: 20px;
+    }
+    .intro h1 {
+      font-size: 36px;
+      color: #1d4ed8;
+      font-weight: 700;
+    }
+    .intro span {
+      color: #1f2937;
+    }
+    .intro span:last-child {
+      color: #ec4899;
+    }
+    .intro p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .btn-download {
+      display: inline-block;
+      background-color: #10b981;
+      color: white;
+      padding: 12px 24px;
+      margin: 10px;
+      border-radius: 999px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .links {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    .links a {
+      color: #2563eb;
+      margin: 4px;
+      text-decoration: none;
+    }
+    .cert-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .cert-card {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    }
+    .cert-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #003366;
+    }
+    .cert-issuer, .cert-date, .cert-id {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 6px;
+    }
+    .cert-btn {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 8px 14px;
+      background-color: #004080;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #1d4ed8;
+      color: white;
+      padding: 24px 0;
+      text-align: center;
+      margin-top: 40px;
+    }
+    footer a {
+      color: white;
+      margin: 0 10px;
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+  <div class="intro">
+    <h1>Hitanshu <span>Sekhar</span> <span>Das</span></h1>
+    <p>Aspiring Data Analyst | MCA @ FM University</p>
+    <a href="https://drive.google.com/uc?export=download&id=1xhtoJq_Cy-t2bF34aNOPYI9s_las6Zs5" class="btn-download" target="_blank">📥 Download Resume</a>
+    <div class="links">
+      <a href="https://drive.google.com/uc?export=download&id=1BfqWvl38Rr3L7_WVWlqJlxwLyk2ubDX1" download>📄 10th Certificate</a> |
+      <a href="https://drive.google.com/uc?export=download&id=1BoslHt5AcWzU4g7VWKQ4eUL_U2PkaB7L" download>📄 12th Marksheet</a> |
+      <a href="https://drive.google.com/uc?export=download&id=1Bq8OrEVqOw2s3LbTZu1b4XnhH-3izH59" download>📄 BSc Certificate</a> |
+      <a href="https://drive.google.com/uc?export=download&id=1BkG1PDQDNj6dORiDqmN6JbkYM7RLNvjI" download>📄 Degree Marksheet</a>
+    </div>
+  </div>
+
+  <div class="cert-container">
+    <div class="cert-card">
+      <div class="cert-title">GenAI Powered Data Analytics Job Simulation</div>
+      <div class="cert-issuer">Forage (Tata Group)</div>
+      <div class="cert-date">Issued Jun 2025</div>
+      <div class="cert-id">Credential ID: 4PXy4eMD7PyaqCt6u</div>
+      <a href="https://www.linkedin.com/in/hitanshu480/details/certifications/" class="cert-btn" target="_blank">See Credential</a>
+    </div>
+    <div class="cert-card">
+      <div class="cert-title">GenAI Powered Data Analytics Job Simulation</div>
+      <div class="cert-issuer">Forage</div>
+      <div class="cert-date">Issued Jun 2025</div>
+      <div class="cert-id">Credential ID: K8gDa9bqstSWnjDXF</div>
+      <a href="https://www.linkedin.com/in/hitanshu480/details/certifications/" class="cert-btn" target="_blank">See Credential</a>
+    </div>
+    <div class="cert-card">
+      <div class="cert-title">Technology Job Simulation</div>
+      <div class="cert-issuer">Deloitte (via Forage)</div>
+      <div class="cert-date">Issued Jun 2025</div>
+      <div class="cert-id">Credential ID: LRZztp2p6n6PTzgmQ</div>
+      <a href="https://www.linkedin.com/in/hitanshu480/details/certifications/" class="cert-btn" target="_blank">See Credential</a>
+    </div>
+    <div class="cert-card">
+      <div class="cert-title">Getting Started in Google Analytics</div>
+      <div class="cert-issuer">Coursera</div>
+      <div class="cert-date">Issued May 2025</div>
+      <div class="cert-id">Credential ID: KFMGW82C2RJC</div>
+      <a href="https://www.linkedin.com/in/hitanshu480/details/certifications/" class="cert-btn" target="_blank">See Credential</a>
+    </div>
+    <div class="cert-card">
+      <div class="cert-title">Introduction To Data Analysis Using Microsoft Excel</div>
+      <div class="cert-issuer">Coursera</div>
+      <div class="cert-date">Issued May 2025</div>
+      <div class="cert-id">Credential ID: QN63MRYDYAZJ</div>
+      <a href="https://www.linkedin.com/in/hitanshu480/details/certifications/" class="cert-btn" target="_blank">See Credential</a>
+    </div>
+    <div class="cert-card">
+      <div class="cert-title">Data Analytics Job Simulation</div>
+      <div class="cert-issuer">Deloitte Australia (Forage)</div>
+      <div class="cert-date">Issued May 2025</div>
+      <div class="cert-id">Credential ID: rFbwTthAo7rcvz5jc</div>
+      <a href="https://www.linkedin.com/in/hitanshu480/details/certifications/" class="cert-btn" target="_blank">See Credential</a>
+    </div>
+  </div>
+
+  <footer>
+    <p style="font-size: 14px; margin-bottom: 12px;">Connect with me</p>
+    <div>
+      <a href="https://www.linkedin.com/in/hitanshu480/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Hitanshu480" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/hitanshusekhar480/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/hitanshusekhar.das.5" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://x.com/hitanshu480" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p style="font-size: 13px; color: #cbd5e1;">© 2025 Hitanshu Sekhar Das. All rights reserved.</p>
+  </footer>
+</body>
+</html>
